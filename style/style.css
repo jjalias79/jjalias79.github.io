@@ -1,0 +1,81 @@
+* {
+	border: 0;
+	margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+h1,
+h2,
+h4 {
+	font-family: 'Roboto', sans-serif;
+}
+
+#headerBox {
+	text-align: center;
+	min-height: 100%;
+	min-width: 100%;
+	background: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.0)), url('../images/tampines-greenleaf.jpg') fixed center;
+}
+	h1.headerId,
+	h4.headerId {
+		color: white;
+	}
+
+	h4.headerId {
+		width: 70%;
+		margin: auto;
+		font-weight: normal;
+	}
+#header {
+	padding: 40px 0;
+}
+
+#ctaButton {
+	/*margin: 50px auto 0;*/
+
+}
+	#ctaButton a {
+		color: mintcream;
+		background: orange;
+		padding: 15px;
+		border-radius: 30px;
+		text-decoration: none;
+		font-weight: normal;
+		display: block;
+		width: 60%;
+		margin: auto;
+		font-size: 14px;
+	}
+
+.row {
+	width: 100%; 
+	margin: auto;
+}
+
+.row:nth-child(even){
+	background: #f7f7f7;
+}
+
+.rowContent {padding: 40px; margin: auto; width: 90%;}
+	.rowContent h2 {margin-bottom: 20px; font-weight: normal;}
+
+footer {
+	background: black;
+	color: white;
+
+}
+	
+
+/*ipad and bigger*******************************************/
+@media only screen and (min-width: 600px) {
+    #ctaButton a {
+    	width: 20%
+    }
+}
