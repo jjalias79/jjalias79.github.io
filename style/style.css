@@ -17,14 +17,22 @@ p {
     color: #212121;
 }
 
-/***.row {width: 50%; float: left;}***/
+span {
+	font-weight: bold; color: cadetblue;
+}
 
-/*.row:nth-child(even){
+.row:nth-child(odd){
 	background: #f7f7f7;
-}*/
+}
 
 .rowContent {padding: 40px;}
-	.rowContent h2 {margin-bottom: 20px; font-weight: normal;}
+	.rowContent h2 {
+		color: white;
+	}
+	.rowContent h3 {
+		margin-bottom: 20px; 
+		font-weight: normal;
+	}
 
 .resp-container {
 		position: relative;
@@ -56,6 +64,7 @@ footer {
 		width: 90%;
 		margin: auto;
 	}
+
 	.resp-container {
 		margin: 40px;
 	}
