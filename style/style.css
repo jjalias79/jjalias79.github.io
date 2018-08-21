@@ -17,14 +17,29 @@ p {
     color: #212121;
 }
 
-.row {width: 50%; float: left;}
+/***.row {width: 50%; float: left;}***/
 
-.row:nth-child(even){
+/*.row:nth-child(even){
 	background: #f7f7f7;
-}
+}*/
 
 .rowContent {padding: 40px;}
 	.rowContent h2 {margin-bottom: 20px; font-weight: normal;}
+
+.resp-container {
+		position: relative;
+    	overflow: hidden;
+    	padding-top: 56.25%;
+	}
+
+		.resp-iframe {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		    border: 0;
+		}	
 
 footer {
 	clear: both;
@@ -35,8 +50,14 @@ footer {
 
 /*ipad and bigger*******************************************/
 @media only screen and (min-width: 600px) {
+
+	.row {width: 50%; float: left;}
 	.rowContent {
 		width: 90%;
 		margin: auto;
 	}
+	.resp-container {
+		margin: 40px;
+	}
+	
 }
