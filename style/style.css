@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+}
+
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font: 400 16px 'Roboto', sans-serif;;
+	line-height: 24px;
+    color: #212121;
+}
+
+.row:nth-child(even){
+	background: #f7f7f7;
+}
+
+.rowContent {padding: 40px;}
+	.rowContent h2 {margin-bottom: 20px; font-weight: normal;}
+
+footer {
+	background: black;
+	color: white;
+}
+	
+
+/*ipad and bigger*******************************************/
+@media only screen and (min-width: 600px) {
+	.rowContent {
+		width: 90%;
+		margin: auto;
+	}
+}
