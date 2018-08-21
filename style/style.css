@@ -1,8 +1,6 @@
 * {
 	margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    color: #212121;
 }
 
 body, html {
@@ -13,46 +11,11 @@ h1, h2, h3 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/*#headerBox {
-	text-align: center;
-	min-height: 100%;
-	min-width: 100%;
-	background: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.0)), url('../images/tampines-greenleaf.jpg') fixed center;
-}*/
-
-
-	/*h1.headerId,
-	h3.headerId {
-		color: white;
-	}*/
-
-	/*h3.headerId {
-		width: 70%;
-		margin: auto;
-		font-weight: normal;
-	}*/
-
-/*#header {
-	padding: 40px 0;
-}*/
-
-	/*#ctaButton a {
-		color: mintcream;
-		background: orange;
-		padding: 15px;
-		border-radius: 30px;
-		text-decoration: none;
-		font-weight: normal;
-		display: block;
-		width: 60%;
-		margin: auto;
-		font-size: 14px;
-	}*/
-
-.row {
-	/*width: 100%; 
-	margin: auto;*/
+p {
+	font-family: 'Roboto', sans-serif;
+    color: #212121;
 }
+
 
 .row:nth-child(even){
 	background: #f7f7f7;
@@ -64,7 +27,6 @@ h1, h2, h3 {
 footer {
 	background: black;
 	color: white;
-
 }
 	
 
