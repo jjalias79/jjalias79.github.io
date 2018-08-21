@@ -21,7 +21,7 @@ span {
 	font-weight: bold; color: cadetblue;
 }
 
-.row:nth-child(odd){
+.row:nth-child(3n+1){
 	background: #f7f7f7;
 }
 
@@ -47,13 +47,41 @@ span {
 		    width: 100%;
 		    height: 100%;
 		    border: 0;
-		}	
+		}
+
+	#ctaButton a {
+		color: mintcream; 
+		background: orange; 
+		padding: 15px 30px; 
+		border-radius: 30px; 
+		text-decoration: none; 
+		margin-top: 20px; 
+		font: 400 14px 'Open Sans', sans-serif; 
+		display: -webkit-inline-box;
+	}
 
 footer {
 	clear: both;
-	background: black;
-	color: white;
+	background: #263238;
 }
+
+.footie {
+	padding: 5px 40px;
+}
+
+	.footie#leftie, .footie#rightie {
+		text-align: center;
+	}
+
+	.footie a, .footie p {
+		color: white;
+		font-size: 14px;
+	}
+
+	.footie a {
+		text-decoration: none;
+	}
+
 	
 
 /*ipad and bigger*******************************************/
@@ -69,4 +97,22 @@ footer {
 		margin: 40px;
 	}
 	
+
+	footer {
+	clear: both;
+	background: #263238;
+	
+}
+	.footie {
+	width: 50%; 
+	float: left;
+	padding: 20px 40px;
+	background: #263238;
+	}
+	.footie#leftie {
+		text-align: left;
+	}
+	.footie#rightie {
+		text-align: right;
+	}
 }
