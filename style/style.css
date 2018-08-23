@@ -28,7 +28,7 @@ ul {
 
 span {
 	font-weight: bold;
-    color: #4285f4;
+    color: #039be5;
 }
 
 .rowContentHalf,
@@ -42,7 +42,7 @@ span {
 	}
 	.rowContent h4 {
 		text-align: center;
-    	color: #4285f4
+    	color: #039be5
 	}
 
 .resp-container {
