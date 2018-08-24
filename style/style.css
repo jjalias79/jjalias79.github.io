@@ -1,6 +1,5 @@
 * {
 	margin: 0;
-    box-sizing: border-box;
 }
 
 body, html {
@@ -12,8 +11,7 @@ h1, h2, h3, h4 {
 }
 
 p {
-	font: 400 16px 'Roboto', sans-serif;;
-	line-height: 24px;
+	font: 400 16px/24px 'Roboto', sans-serif;
     color: #212121;
 }
 
@@ -31,27 +29,29 @@ span {
     color: #039be5;
 }
 
-.rowContentHalf,
-.rowContent {padding: 40px;}
-	.rowContent h2 {
+.row-content-05,
+.row-content-01 {
+	padding: 40px 16px;
+}
+	.row-content-01 h2 {
 		color: white;
 	}
-	.rowContent h3 {
-		margin-bottom: 20px; 
+	.row-content-01 h3 {
+		margin-bottom: 24px; 
 		font-weight: normal;
 	}
-	.rowContent h4 {
+	.row-content-01 h4 {
 		text-align: center;
     	color: #039be5
 	}
 
-.resp-container {
+	.row-content-vid {
 		position: relative;
     	overflow: hidden;
     	padding-top: 56.25%;
 	}
 
-		.resp-iframe {
+		.vid-iframe {
 		    position: absolute;
 		    top: 0;
 		    left: 0;
@@ -59,6 +59,11 @@ span {
 		    height: 100%;
 		    border: 0;
 		}
+
+	.banner {
+		background: #4285f4; 
+		text-align: center;
+	}
 
 	#ctaButton a {
 		color: mintcream; 
@@ -76,54 +81,63 @@ footer {
 	background: #263238;
 }
 
-.footie {
-	padding: 5px 40px;
-}
-
-	.footie#leftie, .footie#rightie {
-		text-align: center;
+	.footie {
+		padding: 5px 40px;
+		box-sizing: border-box;
 	}
 
-	.footie a, .footie p {
-		color: white;
-		font-size: 14px;
-	}
+		.footie#leftie, .footie#rightie {
+			text-align: center;
+		}
 
-	.footie a {
-		text-decoration: none;
-	}
+		.footie a, .footie p {
+			color: white;
+			font-size: 14px;
+		}
+
+		.footie a {
+			text-decoration: none;
+		}
 
 	
 
-/*ipad and bigger*******************************************/
+/*ipad & tabs*****************************/
 @media only screen and (min-width: 600px) {
 
-
-	.rowContentHalf {
-		padding: 60px 20px 60px 120px;
-	}
-	.row {width: 50%; float: left;}
-	.rowContent {
-		padding: 60px 120px;
-		margin: auto;
+	.row-01 {
+		clear: both;
 	}
 
-	.resp-container {
-		margin: 60px 120px 60px 20px;
-		padding-top: 40%;
+	.row-05 {
+		width: 50%; 
+		float: left;
+	}
+
+	.row-content-05 {
+		padding: 60px 20px 60px 80px;
+		/*pad the left*/
+	}
+	.row-content-vid {
+		margin: 60px 80px 60px 20px;
+		/*pad the right*/
 	}
 	
+	.row-content-01 {
+		padding: 60px 80px;
+	}
 
-	footer {
+	
+	
+
+footer {
 	clear: both;
 	background: #263238;
-	
 }
 	.footie {
-	width: 50%; 
-	float: left;
-	padding: 20px 40px;
-	background: #263238;
+		width: 50%; 
+		float: left;
+		padding: 20px 40px;
+		background: #263238;
 	}
 	.footie#leftie {
 		text-align: left;
@@ -132,3 +146,22 @@ footer {
 		text-align: right;
 	}
 }
+
+/*laptops & above*************************/
+@media only screen and (min-width: 769px) {
+
+	.row-content-05 {
+		padding: 60px 20px 60px 120px;
+		/*pad the left*/
+	}
+	.row-content-vid {
+		margin: 60px 120px 60px 20px;
+		/*pad the right*/
+		padding-top: 40%;
+	}
+	
+	.row-content-01 {
+		padding: 60px 120px;
+	}
+
+}	
