@@ -29,27 +29,33 @@ span {
     color: #039be5;
 }
 
+.row-01 {
+		clear: both;
+	}
+.row-content-bl {
+	padding: 16px;
+	}
 .row-content-05,
 .row-content-01 {
 	padding: 40px 16px;
-}
+	}
 	.row-content-01 h2 {
 		color: white;
-	}
+		}
 	.row-content-01 h3 {
 		margin-bottom: 24px; 
 		font-weight: normal;
-	}
+		}
 	.row-content-01 h4 {
 		text-align: center;
     	color: #039be5
-	}
+		}
 
 	.row-content-vid {
 		position: relative;
     	overflow: hidden;
     	padding-top: 56.25%;
-	}
+		}
 
 		.vid-iframe {
 		    position: absolute;
@@ -70,6 +76,11 @@ span {
 		text-align: center;
 	}
 
+	.banner-2 h2 {
+		font: bold 19px/24px 'Open Sans', sans-serif; 
+		color: white
+	}
+
 	#ctaButton a {
 		color: mintcream; 
 		background: orange; 
@@ -80,6 +91,23 @@ span {
 		font: 400 14px 'Open Sans', sans-serif; 
 		display: -webkit-inline-box;
 	}
+
+	img {
+		width: 100%;
+	}
+
+	.nav-btn {
+		display: block; 
+		float: left; 
+		width: 50%; 
+		text-align: center; 
+		padding: 22px 0;
+	}
+	.nav-btn a {
+		text-decoration: none;
+		font: normal 16px 'Open Sans', sans-serif;
+		color: #039be5;
+	}	
 
 footer {
 	clear: both;
@@ -131,8 +159,16 @@ footer {
 		padding: 60px 80px;
 	}
 
+	.row-content-bl {
+		padding: 30px 80px;
+	}
 	
-	
+img {
+		width: 80%;
+		display: block;
+		margin: auto;
+	}
+
 
 footer {
 	clear: both;
@@ -167,6 +203,16 @@ footer {
 	
 	.row-content-01 {
 		padding: 60px 120px;
+	}
+
+	.row-content-bl {
+		padding: 30px 120px;
+	}
+
+	img {
+		width: 70%;
+		display: block;
+		margin: auto;
 	}
 
 }	
