@@ -60,8 +60,13 @@ span {
 		    border: 0;
 		}
 
-	.banner {
+	.banner-1 {
 		background: #4285f4; 
+		text-align: center;
+	}
+
+	.banner-2 {
+		background: #5792c5; 
 		text-align: center;
 	}
 
