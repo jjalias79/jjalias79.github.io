@@ -26,7 +26,7 @@ ul {
 
 span {
 	font-weight: bold;
-    color: royalblue;
+    color: #4169d2;
 }
 
 .row-01 {
@@ -48,7 +48,7 @@ span {
 		}
 	.row-content-01 h4 {
 		text-align: center;
-    	color: royalblue;
+    	color: #4169d2;
 		}
 
 	.row-content-vid {
@@ -67,7 +67,7 @@ span {
 		}
 
 	.banner-1 {
-		background: royalblue; 
+		background: #4169d2; 
 		text-align: center;
 	}
 
