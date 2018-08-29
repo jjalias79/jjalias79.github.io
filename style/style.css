@@ -81,7 +81,7 @@ span {
 		color: white
 	}
 
-	#ctaButton a {
+	.ctaButton a {
 		color: mintcream; 
 		background: orange; 
 		padding: 15px 30px; 
