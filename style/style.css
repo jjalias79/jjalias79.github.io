@@ -10,6 +10,10 @@ h1, h2, h3, h4 {
 	font-family: 'Open Sans', sans-serif;
 }
 
+header h1 {
+	font-size: 30px;
+}
+
 p {
 	font: 400 16px/24px 'Roboto', sans-serif;
     color: #212121;
@@ -172,6 +176,7 @@ img {
 
 footer {
 	clear: both;
+	padding: 10px 0;
 	background: #263238;
 }
 	.footie {
