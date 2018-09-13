@@ -124,7 +124,18 @@ span {
 		text-decoration: none;
 		font: normal 16px 'Open Sans', sans-serif;
 		color: #039be5;
-	}	
+	}
+
+	.container {
+		display: inline-block;
+		margin-bottom: 50px;
+	}
+
+	.logo-container {
+		float: left;
+	    width: 50%;
+	    margin: auto;
+	}
 
 footer {
 	clear: both;
@@ -196,6 +207,20 @@ img {
 		margin: auto;
 	}
 
+img.logo {
+		display: flex;
+		justify-content: center;
+		height: 50px; /*important height*/
+		}	
+.container {
+	display: block;
+	margin-bottom: 0;
+}
+.logo-container {
+		float: left;
+	    width: 16%;
+	    margin: auto;
+}
 
 footer {
 	clear: both;
@@ -222,7 +247,7 @@ footer {
 	}
 
 	header #header h1 {
-		font-size: 48px;
+		font-size: 58px;
 	}
 	header #header h4 {
 		font-size: 19px;
@@ -252,7 +277,14 @@ footer {
 	img {
 		width: 65%;
 		display: block;
+		justify-content: center;
 		margin: auto;
 	}
+
+	img.logo {
+		height: 80px;
+	}
+
+	
 
 }	
