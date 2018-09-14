@@ -2,7 +2,8 @@
 	margin: 0;
 }
 
-body, html {
+body, 
+html {
 	height: 100%;
 }
 
@@ -32,11 +33,7 @@ p {
 }
 
 blockquote {
-	font-style: italic;
-    background-color: #E6EAE9;
-    padding: 30px 10px 30px 30px;
-	font: 100 italic 16px/28px 'Open Sans', sans-serif;
-}
+	}
 
 ul {
 	padding-left: 20px;
@@ -60,14 +57,11 @@ span {
 	}
 	.row-content-01 h2 {
 		font-family: "Open Sans";
-		color: #fff;
+		font-weight: 500;
+		line-height: 35px;
+		color: white;
 		}
-	.row-content-01 h3 {
-		font-family: "Open Sans";
-		font-weight: 100;
-		margin-bottom: 10px;
-		}
-
+	
 	.row-content-vid {
 		position: relative;
     	overflow: hidden;
@@ -84,35 +78,26 @@ span {
 		}
 
 	.banner-1 {
-		background: #5A9DDC; 
+		background: #0C2B57DC; 
 		text-align: center;
-	}
-
-	.banner-2 {
-		background: #5792c5; 
-		text-align: center;
-	}
-
-	.banner-2 h2 {
-		font: bold 19px/24px 'Open Sans', sans-serif; 
-		color: #444;
 	}
 
 	.ctaButton a {
-		color: mintcream; 
-		background: red; 
+		background: red;
+		color: white; 
+		font: 400 14px 'Open Sans', sans-serif;
+		text-decoration: none;
 		padding: 15px 30px; 
 		border-radius: 3px; 
-		text-decoration: none; 
 		margin-top: 24px; 
-		font: 400 14px 'Open Sans', sans-serif; 
 		display: -webkit-inline-box;
 	}
 
+
+/*Blogs***************************************/
 	img {
 		width: 100%;
 	}
-
 	.nav-btn {
 		display: block; 
 		float: left; 
@@ -125,6 +110,7 @@ span {
 		font: normal 16px 'Open Sans', sans-serif;
 		color: #039be5;
 	}
+/***************************************************/
 
 	.container {
 		display: inline-block;
@@ -135,6 +121,29 @@ span {
 		float: left;
 	    width: 50%;
 	    margin: auto;
+	}
+
+	#defn {
+		text-transform: uppercase;
+    	font-family: Open sans;
+    	font-weight: 800;
+    	text-align: center;
+    	color: orangered;
+    	margin: 32px;
+	}
+
+	#row-partners {
+		background-color: #f7f7f7; 
+		overflow: hidden; 
+		text-align: center;
+	}
+
+	#box {
+		border: 2px red solid; 
+		padding: 60px 40px; 
+		margin: 20px 0;
+		line-height: 28px;
+		text-align: center;
 	}
 
 footer {
