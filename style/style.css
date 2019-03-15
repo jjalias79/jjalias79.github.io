@@ -3,9 +3,9 @@
 body, 
 html {height: 100%;}
 
-h1, h2, h3 {font-family: Impact, Charcoal, sans-serif;}
+h1, h2, h3 {font-family: 'Anton', sans-serif;}
 
-h4 {font-family: "Open Sans";}
+h4 {font-family: 'Open Sans';}
 
 header #header {padding: 0 16px 40px; text-align: center;}
 
