@@ -11,7 +11,7 @@ header #header {padding: 0 16px 40px; text-align: center;}
 
 header h1 {font-size: 76px;	font-weight: 500; line-height: 1em;}
 header h4 {/*font-size: 18px;*/ margin: 10px 0;}
-
+.-thin {font-weight: 100;}
 
 p {font: 100 17px/27px 'Open Sans', sans-serif; color: #333333; margin-bottom: 10px; margin-top: 10px;}
 
@@ -19,24 +19,13 @@ ul {padding-left: 20px;}
 
 span {font-weight: bold; color: #444;}
 
-.row-01 {
-		clear: both;
-	}
-.row-content-bl {
-	padding: 16px;
-	}
-.-center {
-	text-align: center;
-}
-
-.-spacer {
-	margin-bottom: 10px;
-}
+.row-01 {clear: both;}
+.row-content-bl {padding: 16px;}
+.-center {text-align: center;}
+.-spacer {margin-bottom: 10px;}
 .row-content-05,
 .row-content-05-right,
-.row-content-01 {
-	padding: 40px 16px;
-	}
+.row-content-01 {padding: 40px 16px;}
 	.row-content-01 h2 {
 		font-family: "Open Sans";
 		font-weight: 500;
