@@ -181,6 +181,8 @@ footer {
 	.row-content-bl {
 		padding: 30px 80px;
 	}
+
+	.-center {text-align: left;}
 	
 img {
 		width: 80%;
