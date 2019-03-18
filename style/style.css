@@ -3,21 +3,47 @@
 body, 
 html {height: 100%;}
 
-h1, h2, h3 {font-family: 'Anton', sans-serif;}
+h1, h2, h3 {
+	font-family: 'Anton', sans-serif;
+}
 
-h4 {font-family: 'Open Sans';}
+h4 {
+	font-family: 'Open Sans';
+}
 
-header #header {padding: 0 16px 40px; text-align: center;}
+p {	
+	font: 100 17px/27px 'Open Sans', sans-serif; 
+	color: #333333; 
+	margin: 10px 0;
+}
 
-header h1 {font-size: 76px;	font-weight: 500; line-height: 1em;}
-header h4 {/*font-size: 18px;*/ margin: 10px 0;}
-.-thin {font-weight: 100;}
+header {
+	min-height: 100%; 
+	background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(255,255,255,0.5)), 
+	url(../images/kb_1.jpg) center fixed;
+}
 
-p {font: 100 17px/27px 'Open Sans', sans-serif; color: #333333; margin-bottom: 10px; margin-top: 10px;}
+header h1 {
+	font: 500 76px/76px 'Anton', sans-serif;
+}
+
+header h4 {
+	margin: 10px 0;
+}
+
+span {
+	font: 400 60px/62px 'Anton', sans-serif; 
+	color: #444;
+}
+
+header #header {
+	padding: 0 16px 40px; 
+	text-align: center;
+}
 
 ul {padding-left: 20px;}
 
-span {font-weight: bold; color: #444;}
+
 
 .row-01 {clear: both;}
 .row-content-bl {padding: 16px;}
@@ -48,7 +74,7 @@ span {font-weight: bold; color: #444;}
 		    border: 0;
 		}
 
-	.banner-1 {
+.banner-1 {
 		background: #000; 
 		text-align: center;
 	}
@@ -97,6 +123,10 @@ span {font-weight: bold; color: #444;}
 	    margin: auto;
 	}
 
+	#header {
+		top: 50%; transform: translateY(-50%); position: absolute; margin: auto; width: -webkit-fill-available;
+	}
+
 	#defn {
 		text-transform: uppercase;
     	font-family: Open sans;
@@ -122,7 +152,6 @@ span {font-weight: bold; color: #444;}
 
 footer {
 	clear: both;
-	background: #0C2B57;
 }
 
 	.footie {
@@ -135,7 +164,6 @@ footer {
 		}
 
 		.footie a, .footie p {
-			color: white;
 			font-size: 14px;
 			font-family: 'Open Sans', sans-serif;
 		}
@@ -215,7 +243,6 @@ footer {
 		width: 50%; 
 		float: left;
 		padding: 20px 40px;
-		background: #0C2B57;
 	}
 	.footie#leftie {
 		text-align: left;
@@ -270,7 +297,5 @@ footer {
 	img.logo {
 		height: 80px;
 	}
-
-	
 
 }	
