@@ -1,14 +1,19 @@
 * {margin: 0;}
 
 body, 
-html {height: 100%;}
-
-h1, h2, h3 {
-	font-family: 'Anton', sans-serif;
+html {
+	height: 100%;
 }
 
-h4 {
+/*FONTS**********************************************************/
+h2 {
+	font-family: 'Anton', sans-serif;
+	font-weight: 100;
+}
+
+h3, h4 {
 	font-family: 'Open Sans';
+	color: #fff;
 }
 
 p {	
@@ -23,13 +28,6 @@ header {
 	url(../images/kb_1.jpg) center fixed;
 }
 
-header h1 {
-	font: 500 76px/76px 'Anton', sans-serif;
-}
-
-header h4 {
-	margin: 10px 0;
-}
 
 span {
 	font: 400 60px/62px 'Anton', sans-serif; 
@@ -43,8 +41,6 @@ header #header {
 
 ul {padding-left: 20px;}
 
-
-
 .row-01 {clear: both;}
 .row-content-bl {padding: 16px;}
 .-center {text-align: center;}
@@ -52,12 +48,7 @@ ul {padding-left: 20px;}
 .row-content-05,
 .row-content-05-right,
 .row-content-01 {padding: 40px 16px;}
-	.row-content-01 h2 {
-		font-family: "Open Sans";
-		font-weight: 500;
-		line-height: 35px;
-		color: white;
-		}
+
 	
 	.row-content-vid {
 		position: relative;
@@ -209,7 +200,7 @@ footer {
 	.row-content-bl {
 		padding: 30px 80px;
 	}
-
+	.-column {column-count: 2; column-gap: 2em;}
 	.-center {text-align: left;}
 	
 img {
